@@ -90,13 +90,27 @@ ul li{
 
 }
 .img-sec img{
-   width: 90%;
-   padding-left:20px ;
+   width: 80%;
+   padding-left:60px ;
 }
 @media (max-width: 768px){
     nav{
         padding: 20px;
     }
+    .sing-in button{
+        font-size: 8px;
+        padding: 5px 20px;
+    }
+    .img-sec {
+        width: 100%;
+        padding: 5px 5px;
+    }
+    .text-sec{
+        width: 100%;
+        padding: 2px 20px;
+
+    }
+
     .menu-sec ul{
         display: none;
     }
@@ -107,14 +121,15 @@ ul li{
         flex-direction: column-reverse;
      }
      .text-sec h1{
-        display: block;
-        font-size: 32px;
+        display:flex;
+        font-size: 20px;
         font-weight: 400;
+        justify-content: center;
+
      }
      .text-sec p{
-     margin-top: 20px;
-    font-size: 20px;
-    padding-bottom: 30px;
+     margin-top: 10px;
+    font-size: 10px;
      }
      .last-sec{
         flex-direction: column;
@@ -127,9 +142,14 @@ ul li{
 }
 @media (max-width: 400px){
     .last-sec button{
-        font-size:25px ;
+        font-size:18px;
+        width: 100%;
+
     }
     .last-sec span{
         font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
